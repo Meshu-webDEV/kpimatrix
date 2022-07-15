@@ -14,9 +14,9 @@ import { ReactComponent as Dollar } from "../lib/assets/dollar.svg";
 
 const FeaturesMenu = () => {
   return (
-    <div className="bg-matrix-white-100/95 shadow-md absolute top-full transform translate-y-3 left-1/2 -translate-x-[50%] flex justify-evenly p-4 z-[999]">
+    <div className="bg-matrix-white-100/95 dark:bg-matrix-black-800/95 shadow-md absolute top-full transform translate-y-3 left-1/2 -translate-x-[50%] flex justify-evenly p-4 z-[999]">
       <div className=" flex-col justify-start z-40">
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Attraction1 className="transform" />
           </div>
@@ -27,7 +27,7 @@ const FeaturesMenu = () => {
             </p>
           </div>
         </div>
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Booking className="transform" />
           </div>
@@ -40,7 +40,7 @@ const FeaturesMenu = () => {
         </div>
       </div>
       <div className=" flex-col justify-start z-40">
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Attraction1 className="transform" />
           </div>
@@ -51,7 +51,7 @@ const FeaturesMenu = () => {
             </p>
           </div>
         </div>
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Booking className="transform" />
           </div>
@@ -64,7 +64,7 @@ const FeaturesMenu = () => {
         </div>
       </div>
       <div className=" flex-col justify-start z-40">
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Attraction1 className="transform" />
           </div>
@@ -75,7 +75,7 @@ const FeaturesMenu = () => {
             </p>
           </div>
         </div>
-        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 flex space-x-6 justify-center items-center min-w-[310px]">
+        <div className="border-l pl-6 pr-2 mr-2 border-gray-300 hover:bg-matrix-blue-100/10 hover:border-matrix-blue-200 dark:hover:border-matrix-pink-400 flex space-x-6 justify-center items-center min-w-[310px]">
           <div className="shrink-0 grow">
             <Booking className="transform" />
           </div>
