@@ -24,9 +24,15 @@ const Menu = ({ open, setOpen }) => {
   const [resourcesOpen, setResourcesOpen] = useState(false);
 
   useEffect(() => {
-    if (open) return document.body.classList.add("disable-scroll");
-    document.body.classList.add("enable-scroll");
-  }, []);
+    console.log("open?", open);
+    if (open) document.body.classList.add("disable-scroll");
+    if (open) document.body.classList.remove("enable-scroll");
+
+    if (!open) document.body.classList.remove("disable-scroll");
+    if (!open) document.body.classList.add("enable-scroll");
+  }, [open]);
+
+  if (!open) return null;
 
   return (
     <div className="menu absolute inset-0 w-screen min-h-[102vh] pb-10 text-matrix-black-900 bg-gradient-to-br from-matrix-blue-100/90 to-matrix-pink-400/60 dark:to-matrix-pink-400/70 menu-slide-in z-[999]">

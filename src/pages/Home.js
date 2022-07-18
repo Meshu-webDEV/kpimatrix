@@ -160,7 +160,7 @@ const Home = () => {
           <div className="max-w-max sm:hidden flex flex-col space-y-4 justify-center items-center">
             <Button text="Start 7-Day Trial" size="lg" variant="primary" />
             <div className="flex flex-col justify-center items-center space-y-1">
-              <p className="text-xs font-light text-matrix-white-200 opacity-90">
+              <p className="text-xs font-light dark:text-matrix-white-200 opacity-90">
                 Check out our{" "}
                 <span className="font-medium dark:text-white text-matrix-black-900">
                   437
@@ -169,12 +169,6 @@ const Home = () => {
               </p>
               <TrustPilot className="transform scale-90 2xl:scale-105" />
             </div>
-          </div>
-
-          {/* notes */}
-          <div className="max-w-max sm:hidden text-xs dark:text-matrix-white-200 text-matrix-black-800 opacity-90 sm:text-2xs">
-            <p>*+40 Trials started in the last 7days.</p>
-            <p>Trusted by 300+ companies.</p>
           </div>
 
           {/* art */}
@@ -330,18 +324,24 @@ const Home = () => {
         {/* footer */}
         <p
           ref={sectionTwoAssetRef}
-          className="text-xs ks? font-normal text-matrix-white-200 opacity-90 max-w-xs sm:transform sm:-translate-x-16 sm:self-center sm:text-left"
+          className="text-xs ks? font-normal dark:text-matrix-white-200 opacity-90 max-w-xs sm:transform sm:-translate-x-16 sm:self-center sm:text-left"
         >
           You could even be speaking directly with our founder and head of
           growth, Simeon.{" "}
         </p>
         {/* cta */}
-        <div className="flex flex-col space-y-2 sm:hidden">
+        <div className="flex flex-col space-y-6 sm:hidden">
           <Button variant="primary" text="Speak With an Expert" size="lg" />
           {/* note */}
-          <div className="text-2xs pl-4 text-matrix-white-200 opacity-80">
-            <p>*Trusted by over 2000+</p>
-            <p>entrepreneurs</p>
+          <div className="flex flex-col justify-center items-center space-y-1 2xl:space-y-3">
+            <p className="text-xs font-light text-matrix-black-800 dark:text-matrix-white-200 opacity-90 2xl:text-sm">
+              Check out our{" "}
+              <span className="font-medium dark:text-white text-matrix-black-900">
+                437
+              </span>{" "}
+              reviews
+            </p>
+            <TrustPilot className="transform scale-90 2xl:scale-105" />
           </div>
         </div>
       </section>
@@ -615,9 +615,17 @@ const Home = () => {
             {/* CTA */}
             <Button text="Start 7-Day Trial" variant="primary" size="lg" />
             {/* Note */}
-            <div className="text-2xs text-matrix-white-200 opacity-75 text-center">
-              <p>*+40 Trials started in the last 7days.</p>
-              <p>Trusted by 300+ companies.</p>
+            <div className="text-2xs text-matrix-black-800 dark:text-matrix-white-200 opacity-75 text-center">
+              <div className="flex flex-col justify-center items-center space-y-1 2xl:space-y-3">
+                <p className="text-xs font-light text-matrix-black-800 dark:text-matrix-white-200 opacity-90 2xl:text-sm">
+                  Check out our{" "}
+                  <span className="font-medium dark:text-white text-matrix-black-900">
+                    437
+                  </span>{" "}
+                  reviews
+                </p>
+                <TrustPilot className="transform scale-90 2xl:scale-105" />
+              </div>
             </div>
           </div>
           <div className="hidden flex-col space-y-2 items-center sm:flex sm:flex-row sm:space-x-8 sm:transform sm:translate-x-10 sm:self-start xl:self-center xl:translate-x-0">
@@ -1218,7 +1226,7 @@ const Home = () => {
           <div className="flex flex-col space-y-4">
             <Button text="Start 7-Day Trial" variant="primary" size="lg" />
             <div className="flex flex-col justify-center items-center space-y-1">
-              <p className="text-xs font-light text-matrix-white-200 opacity-90">
+              <p className="text-xs font-light dark:text-matrix-white-200 opacity-90">
                 Check out our{" "}
                 <span className="font-medium dark:text-white text-matrix-black-900">
                   437

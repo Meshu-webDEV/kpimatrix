@@ -17,7 +17,11 @@ const DesktopNavbar = ({ className }) => {
 
   return (
     <div className="desktop-nav sticky inset-0 h-20 3xl:h-24 6xl:h-32 z-50 flex justify-between items-center col-span-4 sm:col-span-8 xl:col-span-12 px-4 sm:px-14 md:px-16 lg:px-24 5xl:px-36 6xl:px-44 dark:bg-matrix-black-400">
-      {menuOpen ? <Menu open={menuOpen} setOpen={setMenuOpen} /> : null}
+      {menuOpen ? (
+        <Menu open={menuOpen} setOpen={setMenuOpen} />
+      ) : (
+        <Menu open={false} setOpen={setMenuOpen} />
+      )}
       <div className="left cursor-pointer flex space-x-2 justify-center items-center">
         <Icon
           ICON_NAME={ICON_NAMES.LOGO}
